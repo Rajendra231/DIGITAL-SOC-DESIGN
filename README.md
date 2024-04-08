@@ -38,6 +38,11 @@ Synthesis and calculating flip-flop ratio:
 
 #Running synthesis
 
+```bash
+  Run_synthesis
+```
+
+
 ![Screenshot 2024-04-08 213343](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/fd67e3f9-8fb4-4f1d-9f56-736e5a22cb28)
 
 ![Screenshot 2024-04-08 213527](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/d66c33ba-57d6-4bbc-8eae-73b03d225b20)
@@ -48,13 +53,17 @@ Synthesis and calculating flip-flop ratio:
 
 ![Screenshot 2024-04-08 213847](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9d144b98-b5d7-408b-ada9-686fbaf66506)
 
+
 Flip-Flop ratio = Total number of Dflip-flop / Total number of cells
  
-
 Percentage = Flip flop ratio * 100
 
  Ratio=1613 / 14876 
  
 Percentage = 10.84296854%
+
+# DAY 2:Good floorplan vs Bad floorplan and introduction to library cells
+
+
 
 
