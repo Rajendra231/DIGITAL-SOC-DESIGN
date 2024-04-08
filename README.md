@@ -72,12 +72,40 @@ Percentage = 10.84296854%
 
 ![Screenshot 2024-04-08 225534](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/6ca2cdec-1b6e-4b67-ba66-f7edeb65e1e0)
 
+#Examining floorplan using Magic
+
 ```bash
+
   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
+
 ```
 
 
+
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/70a40d1a-9ba5-438e-914e-dde9e5cfb779)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e51f4673-81e6-44f7-b43a-ae1dbc317444)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/dfb798a6-aec9-4775-87e0-e83147a5f45f)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/756fa90b-e08b-47bb-87da-0a5bb8471341)
+
+```bash
+  run_placement
+```
+![Screenshot 2024-04-08 234012](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/711ee225-8855-4beb-ba33-905b235745d7)
+
+```bash
+
+  magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
+
+```
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1cf43507-71c8-4272-af91-a5b8e265a31a)
+
+
+
+
 
 
 
