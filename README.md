@@ -199,11 +199,12 @@ Now ploting graph by using command plot y time a
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0fb7f041-7f43-493c-92dc-ad36da65b2dd)
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4abb666b-f5ef-464a-9fa5-3891f17fe281)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/202b99b7-29a6-427a-98ab-9bc6fc795ee1)
 
 Increasing the value of C3 0.24ff to 2ff
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/202b99b7-29a6-427a-98ab-9bc6fc795ee1)
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4abb666b-f5ef-464a-9fa5-3891f17fe281)
 
 #20%
 
