@@ -144,8 +144,54 @@ Percentage = 10.84296854%
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4156bbee-0fd8-4dc2-8d55-6c5bafff0171)
 
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3bd92f34-29b8-4762-87bb-f88c104eecb8)
 
+#nmos
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/8a48973e-fe61-45fd-ba04-4e6db2ff9da3)
 
+#pmos
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1d3df3f0-4de1-4976-b3a5-8d5655a96a49)
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/910078a4-1c3f-4941-a0d2-22346cff77bb)
 
+#spice file
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/a3996564-afc9-40ee-9423-1a743e7f8f97)
+
+#modifing file
+
+```bash
+
+  option scale=0.01u 
+include ./libs/pshort.lib
+include ./libs/nshort.lib
+//. subckt sky130_inv A Y VPWR VGND
+M1000 Y A VPWR VPWR pshort_model. 0w=37 1=23
++ ad=1443 pd=152 as=1517 ps=156
+M1001 Y A VGND VGND nshort_model. 0 w=34 1=23
++ ad=1435 pd=152 as=1365
+ps=148̦
+VDD VPWR 0 3.3V
+VSS VGND
+0 OV
+Va A VGND PULSE(OV 3.3V 0 0.1ns 0.ins 2ns 4ns)
+CO A Y 0.0754fF
+C1 Y VPWR 0.117fF
+C2 A VPWR 0.0774fF
+C3 Y VGND 0.279fF
+C4 A VGND 0.45fF
+// C5 VPWR VGND 0.781f
+//. ends 
+.tran in 20n
+.control run
+endc
+end
+```
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/dd09981d-da1f-4f6c-9719-84ccccfba9f6)
+
+#Now run 
+
+```bash
+
+  ngspice sky130_inv.spice
+```
