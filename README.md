@@ -104,6 +104,39 @@ Percentage = 10.84296854%
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4f852f4c-e70a-4944-838a-de40e66cf780)
 
 
+# DAY 3: Design library cell using Magic Layout and ngspice characterization
+
+#Modifing floorplan
+
+
+```bash
+  set ::env(FP_IO_MODE) 2
+```
+```bash
+  run_floorplan
+```
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/bdb9123a-af50-4dbd-8811-20bc0f2acf33)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/a8b04762-465f-4f0c-bb48-4f5d548ab4e7)
+
+```bash
+
+  magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
+
+```
+#Observed changed design
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9c1952ac-e3d5-4a29-946e-ec78651337d8)
+
+#Cloning inverter from github repository
+
+```bash
+
+  git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+```
+
+
 
 
 
