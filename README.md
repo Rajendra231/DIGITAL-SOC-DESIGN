@@ -195,3 +195,33 @@ end
 
   ngspice sky130_inv.spice
 ```
+Now ploting graph by using command plot y time a
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0fb7f041-7f43-493c-92dc-ad36da65b2dd)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4abb666b-f5ef-464a-9fa5-3891f17fe281)
+
+Increasing the value of C3 0.24ff to 2ff
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/202b99b7-29a6-427a-98ab-9bc6fc795ee1)
+
+#20%
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/2a67f4d9-99e8-454c-a74e-f8e530912d20)
+
+#80%
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/218bd6f4-0093-4ad5-9511-a7236b483a96)
+
+#50%
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/ccb905b8-1612-427e-be32-735bcd682842)
+
+The value of parameters are:
+- Rise time
+rise time= (2.2489 - 2.181)e-09 = 66.92 psec
+- Fall time
+fall time= (4.0951 - 4.0526)e-09 = 42.51 psec
+-Propagation delay
+propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec
+- Cell fall delay
+cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec
+
