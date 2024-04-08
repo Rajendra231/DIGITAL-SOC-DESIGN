@@ -166,15 +166,15 @@ Percentage = 10.84296854%
 include ./libs/pshort.lib
 include ./libs/nshort.lib
 //. subckt sky130_inv A Y VPWR VGND
-M1000 Y A VPWR VPWR pshort_model. 0w=37 1=23
+M1000 Y A VPWR VPWR pshort_model. 0w=37 l=23
 + ad=1443 pd=152 as=1517 ps=156
-M1001 Y A VGND VGND nshort_model. 0 w=34 1=23
+M1001 Y A VGND VGND nshort_model. 0 w=34 l=23
 + ad=1435 pd=152 as=1365
 ps=148̦
 VDD VPWR 0 3.3V
 VSS VGND
 0 OV
-Va A VGND PULSE(OV 3.3V 0 0.1ns 0.ins 2ns 4ns)
+Va A VGND PULSE(OV 3.3V 0 0.1ns 0.1ns 2ns 4ns)
 CO A Y 0.0754fF
 C1 Y VPWR 0.117fF
 C2 A VPWR 0.0774fF
@@ -182,7 +182,7 @@ C3 Y VGND 0.279fF
 C4 A VGND 0.45fF
 // C5 VPWR VGND 0.781f
 //. ends 
-.tran in 20n
+.tran 1n 20n
 .control run
 endc
 end
