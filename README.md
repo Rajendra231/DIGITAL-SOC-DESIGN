@@ -135,8 +135,13 @@ Percentage = 10.84296854%
 
   git clone https://github.com/nickson-jose/vsdstdcelldesign.git
 ```
+```bash
+
+  magic -d XR -T "/libs/sky130A.tech" mag sky130_inv.mag
+```
 
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4156bbee-0fd8-4dc2-8d55-6c5bafff0171)
 
 
 
