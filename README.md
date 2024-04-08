@@ -39,7 +39,7 @@ Synthesis and calculating flip-flop ratio:
 #Running synthesis
 
 ```bash
-  Run_synthesis
+  run_synthesis
 ```
 
 
@@ -62,7 +62,22 @@ Percentage = Flip flop ratio * 100
  
 Percentage = 10.84296854%
 
-# DAY 2:Good floorplan vs Bad floorplan and introduction to library cells
+# DAY 2: Good floorplan vs Bad floorplan and introduction to library cells
+
+```bash
+  run_floorplan
+```
+![Screenshot 2024-04-08 225508](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/5db362bb-ca56-44fc-bf60-3ccc71911cf8)
+
+
+![Screenshot 2024-04-08 225534](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/6ca2cdec-1b6e-4b67-ba66-f7edeb65e1e0)
+
+```bash
+  magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
+```
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/70a40d1a-9ba5-438e-914e-dde9e5cfb779)
 
 
 
