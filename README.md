@@ -225,7 +225,7 @@ rise time= (2.2489 - 2.181)e-09 = 66.92 psec
 
 fall time= (4.0951 - 4.0526)e-09 = 42.51 psec
 
--Propagation delay
+- Propagation delay
 
 propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec
 
