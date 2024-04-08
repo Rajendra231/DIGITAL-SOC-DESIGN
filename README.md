@@ -11,18 +11,18 @@ Benefits:
 
 CREATING NEW VIRTUAL MACHINE:
 
-![Screenshot (595)](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/66f9a57d-d125-4503-b3b8-65d0a37b3af7)
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/327fc352-de01-446c-bbc6-062a02853144)
 
 
-![Screenshot 2024-04-08 204557](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/6407ec7a-3bc1-4b77-8a57-ef25cac26d1d)
+![Screenshot 2024-04-08 204557](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/d21ed282-9aaf-413b-933e-0e006624800e)
 
 
-![Screenshot 2024-04-08 204627](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/d442196c-c426-46d1-85ed-aaff58932fdf)
+![Screenshot 2024-04-08 204627](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/5c744692-8648-4ee0-9aa7-4c9631604900)
 
+![Screenshot 2024-04-08 204656](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/cd9e87a0-c475-43be-87d3-3ea78b3c9974)
 
-![Screenshot 2024-04-08 204656](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/cd79e620-8890-4815-9a22-2fa20f815b42)
+![Screenshot 2024-04-08 205308](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/97a87429-371e-4f1b-97bd-5c995249b0d6)
 
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/ad1cdf02-9179-4562-8720-c31af7314307)
 
 # DAY 1: Section 1 Inception of open source EDA Openlane and Sky130 PDK
 Synthesis and calculating flip-flop ratio:
@@ -33,22 +33,20 @@ Synthesis and calculating flip-flop ratio:
 - package require openlane 0.9
 - prep -design picorv32a
 
-  
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/5c330b22-64d1-4b82-8aa6-1a2ee14c51e6)
+![Screenshot 2024-04-08 212105](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/6c20e74b-2df8-48cf-9207-e4d86c4415bb)
+
 
 #Running synthesis
 
+![Screenshot 2024-04-08 213343](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/fd67e3f9-8fb4-4f1d-9f56-736e5a22cb28)
 
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/a5149f1f-81c8-4364-9aa9-6b0a6732fd64)
-
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/1fb74963-6762-4914-9999-b1e30eff0f58)
+![Screenshot 2024-04-08 213527](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/d66c33ba-57d6-4bbc-8eae-73b03d225b20)
 
 #Calculating flip-flop ratio
 
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/f0cf9bed-8c33-48f1-b5e4-4880e70c57c4)
+![Screenshot 2024-04-08 213822](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/f18eb064-90f1-4789-bbff-e4286a600d05)
 
-![image](https://github.com/Rajendra231/Digital-SOC-Design/assets/166032447/ad77a403-3556-441c-bf85-495d5479f522)
-
+![Screenshot 2024-04-08 213847](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9d144b98-b5d7-408b-ada9-686fbaf66506)
 
 Flip-Flop ratio = Total number of Dflip-flop / Total number of cells
  
