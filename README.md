@@ -101,7 +101,8 @@ Percentage = 10.84296854%
   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
 
 ```
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1cf43507-71c8-4272-af91-a5b8e265a31a)
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4f852f4c-e70a-4944-838a-de40e66cf780)
+
 
 
 
