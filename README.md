@@ -216,12 +216,20 @@ Increasing the value of C3 0.24ff to 2ff
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/ccb905b8-1612-427e-be32-735bcd682842)
 
 The value of parameters are:
+
 - Rise time
+
 rise time= (2.2489 - 2.181)e-09 = 66.92 psec
+
 - Fall time
+
 fall time= (4.0951 - 4.0526)e-09 = 42.51 psec
+
 -Propagation delay
+
 propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec
+
 - Cell fall delay
+
 cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec
 
