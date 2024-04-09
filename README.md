@@ -235,7 +235,8 @@ propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec
 
 cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec
 
-#DRC Corrections
+# DRC Corrections and rules
+
 For doing DRC coorection we have to download lab files using
 ```bash
    wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
@@ -253,8 +254,25 @@ To start magic tool,we can use command
 ```bash
   magic -d XR
 ```
+And we will open `met3.mag` file
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e91f35f4-b9ad-4648-9e12-22efdf343b19)
+
+We can see contact cuts using `cif see VIA2`
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1d13d0c4-3aba-40ed-be74-e1a4233057c6)
+
+
+# Fixing ploy.9 error
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1954caa8-7c3a-440d-9301-485ae03681b6)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/d2de3ffa-8593-4ebd-927d-2dedc5f2e1c9)
+
+Now we run `tech loadsky130A.tech`  and do drc check using `check drc`
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9f741a38-484a-4c39-9317-1cbaefb26457)
 
 
 
