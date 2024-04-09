@@ -24,7 +24,7 @@ CREATING NEW VIRTUAL MACHINE:
 ![Screenshot 2024-04-08 205308](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/97a87429-371e-4f1b-97bd-5c995249b0d6)
 
 
-# DAY 1: Section 1 Inception of open source EDA Openlane and Sky130 PDK
+# DAY 1:  Inception of open source EDA Openlane and Sky130 PDK
 Synthesis and calculating flip-flop ratio:
 
 #Using following command to invoke openlane:
