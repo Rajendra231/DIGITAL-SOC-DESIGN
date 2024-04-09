@@ -453,6 +453,14 @@ Errors are solved succesfully,so now we are using `run_placement`command
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/27404734-eb93-4707-8524-093a6a374560)
 
+#placement output im magic
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e1f165d5-87a1-407c-bd79-b26548cb1e99) ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0f009067-912e-46a4-a8ba-5dea846a991f)
+
+To view internal layers we need to run command `expand` in tckon tab
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/a8bf4627-ee06-4fc1-ad8e-39e7412e5471)
+
 
 
 
