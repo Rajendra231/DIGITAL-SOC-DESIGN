@@ -467,14 +467,46 @@ To view internal layers we need to run command `expand` in tckon tab
 
 #performng PDN generation and layout
 
+ Building power distribution network
 
+` docker`
+
+`./flow.tcl -interactive`
+
+`package require openlane 0.9`
+
+`prep -design picorv32a -tag 08-04_18-39`
+
+`echo $::env(CURRENT_DEF)`
+
+
+ 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1e5e597d-527f-4556-9f7c-3899e8fc656d)
 
 
 now run `echo $::env(CURRENT_DEF)` IN OPENLANE 
 
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/29e87141-5540-4c29-93df-84f1a54be9f2)
 
+#Generating pdn(power distribution network) using `gen_pdn`
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/01edd8a3-ec12-4fe2-bf49-10384d0fedf0)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/f30a8448-6c7b-4a1f-97b2-f50c1d3a4e80)
+
+#Routing
+
+ Running `echo $::env(CURRENT_DEF)` and ` echo $::env(ROUTING_STRATEGY)`
+
+ ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/88ac0d24-fea1-4ce0-b5ed-1a7a89b72e5e)
+
+ ```bash
+   run_routing
+```
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/8b3f58f7-0146-4f27-bee9-d1eec64a6d1c)
 
 
 
