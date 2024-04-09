@@ -356,6 +356,12 @@ add_lefs -src $lefs
 
 run_synthesis
 
+prep -design picorv32a -tag  08-04_18-39 -overwrite
+
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+
+add_lefs -src $lefs
+
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/bd0a6cf0-41ff-4170-8ba0-9ee0c70bf970)
 
@@ -383,11 +389,6 @@ We will modify README.MD file in the configuration directry
 
 Now we will run the following commands in openlane:
 
-`prep -design picorv32a -tag  08-04_18-39 -overwrite`
-
-`set lefs [glob $::env(DESIGN_DIR)/src/*.lef]`
-
-`add_lefs -src $lefs`
 
 `echo $::env(SYNTH_STRATEGY)`
 
