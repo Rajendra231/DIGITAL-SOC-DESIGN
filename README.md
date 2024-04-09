@@ -318,8 +318,55 @@ We can open track file from directory shown in image and get more information ab
 
 #converting magic layout to std cell LEF
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/292aae5b-41a1-40cd-a6ab-57699598067c)
 
+![Screenshot 2024-04-09 151110](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/864fc7e7-a754-479e-9af7-9475c9f936ea)
+
+
+![Screenshot 2024-04-09 151315](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1ffb3598-15c3-409d-8578-a2635acd447f)
+
+now we will open this file in magic using `magic -T sky130A.tech sky130_vsdinv.mag &`
+
+now we have to run command `lef write` in takon window to extarct the lef file
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/14017f26-1086-4142-9d53-a732f8e8efc1)
+
+we will need to move the files to the src folder where all design files are available.
+
+To do this we can copy the file using `cp` command
+
+
+![Screenshot 2024-04-09 153222](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9f281d44-2cf2-43a5-b5c5-e2328386fd4f)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/4aa54bd3-d8e2-42bb-8f30-371f314de35d)
+
+#OPENLANE 
+
+Now we will open openlane directry and run docker command
+
+./flow.tcl -interactive
+package require openlane 0.9
+prep -design picorv32a
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]      
+add_lefs -src $lefs
+run_synthesis
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/bd0a6cf0-41ff-4170-8ba0-9ee0c70bf970)
+
+
+![Screenshot 2024-04-09 160257](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/14c38b3a-a486-4ce6-9f8d-d86d4da22d2f)
+
+
+
+```bash
+  run_synthesis
+```
+
+![Screenshot 2024-04-09 160334](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/24b4fe67-9ca1-47c8-9f92-337e354f5061)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3e6903e3-884d-49ed-a523-743777344f85)
 
 
 
