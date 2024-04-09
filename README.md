@@ -294,8 +294,28 @@ Now executing the command `drc style drc(full)` and `drc check`
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/931b9045-e6df-46cc-a139-23a789124d85)
 
 
-
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3011ddbb-0c09-4f65-8df9-ab3b615b6dc7)
+
+
+# DAY 4: Pre-layout timing analysis and importance of good clock tree
+
+#In this lab we are converting grid info into lab info
+
+We can open track file from directory shown in image and get more information about it.
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/ab9d8018-176c-4982-b2c5-a8547defe8f6)
+
+![Screenshot 2024-04-09 142451](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e2aef559-6f01-4075-a5ce-951ea7f4b478)
+
+
+![Screenshot 2024-04-09 143607](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/2a61d9b2-2c17-4aaa-bc05-3bd006f3bc07)
+
+
+
+![Screenshot 2024-04-09 143414](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9a290f3e-0efe-4462-bf93-38b7687e85d9)
+
+
+
 
 
 
