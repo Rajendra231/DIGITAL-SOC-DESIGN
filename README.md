@@ -509,5 +509,35 @@ now run `echo $::env(CURRENT_DEF)` IN OPENLANE
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/8b3f58f7-0146-4f27-bee9-d1eec64a6d1c)
 
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/d9fe423e-70c4-4661-a737-27bd99fd933c)
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0fcb0c22-57d3-46c2-bfd4-c015e39e4f07)
+
+
+Since OpenLANE does not have a SPEF extraction tool, this process needs to be done outside of OpenLANE.
+
+The resulting .spef file can be located in the routing folder under the results folder.
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/a26bbeea-d5fa-487c-9144-46ea26246abe)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/160e45ef-5ae7-40ce-88ac-bc42ea5a3287)
+
+#Final generated layout
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/96cd239d-2a74-4081-9fbd-6184d0f3742c)
+
+
+
+# References
+- Workshop Github material
+- https://github.com/google/skywater-pdk
+- https://github.com/nickson-jose/vsdstdcelldesign
+- ttps://sourceforge.net/projects/ngspice/
+- https://github.com/
+- https://www.vlsisystemdesign.com/wp-content/uploads/2017/07/Introduction-to-Industrial-Physical-Design-Flow.pdf
+
+
 
 
