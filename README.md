@@ -405,6 +405,57 @@ Now we will run the following commands in openlane:
 `run_synthesis`
 
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/6e44639f-9168-4949-9db8-efa33ec189eb)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/bf8dcc07-9b70-4ea4-843e-ca9911bab569)
+
+
+```bash
+ run_synthesis
+```
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/8cb1cea1-bb54-467a-86e9-28c735eeac8d)
+
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1fe1d069-6276-466d-a558-63b752d5ec42)
+
+#ERROR SOLVING
+
+`init_floorplan`
+
+`place_io`
+
+`tap_decap_or`
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3d63d2f3-8b88-4c5e-acf4-4be04e8fcab1)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/28fd08c1-8820-4615-a42c-197de7b816ca)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/f550be0c-ef2c-4063-8b56-ae81d7a88489)
+
+Errors are solved succesfully,so now we are using `run_placement`command
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/696cb5cd-fd76-402b-ac97-d3ad5fc1646f)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/81b19396-54c0-4071-a43c-dbca4789b551)
+
+```bash
+  
+   magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged_unpadded.lef def read picorv32a.floorplan.def &
+```
+   
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/27404734-eb93-4707-8524-093a6a374560)
+
+
+
+
 
 
 
