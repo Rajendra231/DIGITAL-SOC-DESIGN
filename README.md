@@ -451,11 +451,13 @@ Errors are solved succesfully,so now we are using `run_placement`command
 ```
    
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/27404734-eb93-4707-8524-093a6a374560)
+![WhatsApp Image 2024-04-09 at 18 47 30_50ee1ce4](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/18104b2e-a5bc-4f4e-8832-fe9487f18fd9)
+
 
 #placement output im magic
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e1f165d5-87a1-407c-bd79-b26548cb1e99) ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0f009067-912e-46a4-a8ba-5dea846a991f)
+![WhatsApp Image 2024-04-09 at 18 46 57_3ef16343](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/7ad21e07-d671-4f62-90e1-b67c92d2ea76)
+
 
 To view internal layers we need to run command `expand` in tckon tab
 
