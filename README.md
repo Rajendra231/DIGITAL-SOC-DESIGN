@@ -288,9 +288,11 @@ Now we run `tech loadsky130A.tech`  and do drc check using `check drc`
 
 Now executing the command `drc style drc(full)` and `drc check`
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1bae79c4-935e-4acc-8ab4-e5d86f13e51a)
+
+
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/931b9045-e6df-46cc-a139-23a789124d85)
 
-![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1bae79c4-935e-4acc-8ab4-e5d86f13e51a)
 
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3011ddbb-0c09-4f65-8df9-ab3b615b6dc7)
