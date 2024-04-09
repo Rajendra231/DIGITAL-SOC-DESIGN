@@ -228,9 +228,34 @@ fall time= (4.0951 - 4.0526)e-09 = 42.51 psec
 
 - Propagation delay
 
+
 propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec
 
 - Cell fall delay
 
 cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec
+
+#DRC Corrections
+For doing DRC coorection we have to download lab files using
+```bash
+   wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+```
+
+![Screenshot 2024-04-09 024807](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/360297d6-d573-43cd-9da2-f17043c1a13f)
+
+
+Sky130A Periphery rules: https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/5fced034-2e0b-4903-a942-0e5a8b1e9286)
+
+
+To start magic tool,we can use command 
+```bash
+  magic -d XR
+```
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/e91f35f4-b9ad-4648-9e12-22efdf343b19)
+
+
+
 
