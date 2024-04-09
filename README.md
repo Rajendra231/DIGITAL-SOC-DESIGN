@@ -342,25 +342,25 @@ To do this we can copy the file using `cp` command
 
 #OPENLANE 
 
-Now we will open openlane directry and run `docker` command
+- Now we will open openlane directry and run `docker` command
 
-./flow.tcl -interactive
+- ./flow.tcl -interactive
 
-package require openlane 0.9
+- package require openlane 0.9
 
-prep -design picorv32a
+- prep -design picorv32a
 
-set lefs [glob $::env(DESIGN_DIR)/src/*.lef]  
+- set lefs [glob $::env(DESIGN_DIR)/src/*.lef]  
 
-add_lefs -src $lefs
+- add_lefs -src $lefs
 
-run_synthesis
+- run_synthesis
 
-prep -design picorv32a -tag  08-04_18-39 -overwrite
+- prep -design picorv32a -tag  08-04_18-39 -overwrite
 
-set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+- set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 
-add_lefs -src $lefs
+- add_lefs -src $lefs
 
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/bd0a6cf0-41ff-4170-8ba0-9ee0c70bf970)
