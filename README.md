@@ -342,13 +342,18 @@ To do this we can copy the file using `cp` command
 
 #OPENLANE 
 
-Now we will open openlane directry and run docker command
+Now we will open openlane directry and run `docker` command
 
 ./flow.tcl -interactive
+
 package require openlane 0.9
+
 prep -design picorv32a
-set lefs [glob $::env(DESIGN_DIR)/src/*.lef]      
+
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]  
+
 add_lefs -src $lefs
+
 run_synthesis
 
 
@@ -369,6 +374,34 @@ run_synthesis
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3e6903e3-884d-49ed-a523-743777344f85)
 
 
+#configuring synthesis settings to fix slack and include vsdinv
+
+We will modify README.MD file in the configuration directry
+
+ 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/ff9af182-589c-429e-8692-47b98890ae30)
+
+Now we will run the following commands in openlane:
+
+`prep -design picorv32a -tag  08-04_18-39 -overwrite`
+
+`set lefs [glob $::env(DESIGN_DIR)/src/*.lef]`
+
+`add_lefs -src $lefs`
+
+`echo $::env(SYNTH_STRATEGY)`
+
+`set ::env(SYNTH_STRATEGY) "DELAY 3"`
+
+`echo $::env(SYNTH_BUFFERING)`
+
+`echo $::env(SYNTH_SIZING)`
+
+`set ::env(SYNTH_SIZING) 1`
+
+`echo $::env(SYNTH_DRIVING_CELL)`
+
+`run_synthesis`
 
 
 
