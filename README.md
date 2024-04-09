@@ -318,6 +318,9 @@ We can open track file from directory shown in image and get more information ab
 
 #converting magic layout to std cell LEF
 
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/292aae5b-41a1-40cd-a6ab-57699598067c)
+
+
 
 
 
