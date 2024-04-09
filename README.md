@@ -274,6 +274,26 @@ Now we run `tech loadsky130A.tech`  and do drc check using `check drc`
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/9f741a38-484a-4c39-9317-1cbaefb26457)
 
+#  Lab challenge exercise to describe DRC error as geometrical construct
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/b44948b6-d7d1-4f84-9356-9d9959e559f5)
+
+#Making some changes in sky130A.tech file
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/f0af79b2-8a80-412c-a00d-089dc2721fe1)
+
+
+![Screenshot 2024-04-09 132248](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/6c2d16ef-5570-4c94-9ac9-9437eb213c40)
+
+Now executing the command `drc style drc(full)` and `drc check`
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/931b9045-e6df-46cc-a139-23a789124d85)
+
+
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/3011ddbb-0c09-4f65-8df9-ab3b615b6dc7)
+
+
 
 
 
