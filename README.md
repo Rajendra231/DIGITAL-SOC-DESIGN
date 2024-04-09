@@ -514,7 +514,7 @@ now run `echo $::env(CURRENT_DEF)` IN OPENLANE
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/0fcb0c22-57d3-46c2-bfd4-c015e39e4f07)
 
 
-Since OpenLANE does not have a SPEF extraction tool, this process needs to be done outside of OpenLANE.
+Since OpenLANE does not have a SPEF extraction tool, this process needs to be done outside of OpenLANE directory.
 
 The resulting .spef file can be located in the routing folder under the results folder.
 
