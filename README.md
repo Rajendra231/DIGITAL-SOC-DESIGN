@@ -463,9 +463,10 @@ To view internal layers we need to run command `expand` in tckon tab
 
 # DAY 5:  Final steps for RTL2GDS using tritonRoute and openSTA
 
+3performng PDN generation and layout
 
 
-
+![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/1e5e597d-527f-4556-9f7c-3899e8fc656d)
 
 
 
