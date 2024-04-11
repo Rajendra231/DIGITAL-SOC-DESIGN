@@ -463,6 +463,10 @@ To view internal layers we need to run command `expand` in tckon tab
 
 ![image](https://github.com/Rajendra231/DIGITAL-SOC-DESIGN/assets/166032447/a8bf4627-ee06-4fc1-ad8e-39e7412e5471)
 
+#Configuring OpenSTA for post-synth timing analysis
+
+
+
 # DAY 5:  Final steps for RTL2GDS using tritonRoute and openSTA
 
 #performng PDN generation and layout
